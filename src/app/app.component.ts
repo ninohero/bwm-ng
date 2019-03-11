@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  componentTitle = 'this is an impoprted app component title';
+
+  clickHandler() {
+    console.log("click");
+  }
 }
